@@ -6,3 +6,5 @@
 ```sh
 docker run -it -p=8080:8080 hysios/activityjs
 ```
+
+open in http://localhost:8080/ in your browser
