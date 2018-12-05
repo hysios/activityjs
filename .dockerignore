@@ -1,0 +1,11 @@
+serve/.vscode/
+serve/demo/main.js
+serve/demo/main.js.map
+serve/src/
+serve/pkg/
+serve/tmp/
+serve/workspace/
+
+web/node_modules/
+web/build
+web/spec

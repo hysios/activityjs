@@ -402,6 +402,7 @@ func main() {
 
 	api.HandleFunc("/examples/{filename:.*}", examples)
 	r.HandleFunc("/compiled/{filename:.*}", downloadjs)
+	r.PathPrefix("/").Handler(http.FileServer(http.Dir("./static")))
 
 	log.Printf("Listen on port http://localhost:8080")
 	http.ListenAndServe(":8080", r)

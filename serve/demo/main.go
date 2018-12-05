@@ -10,14 +10,14 @@ import (
 func Prepare() ([]model.Product, []model.ActivityItem, []model.OrderItem, model.Order, model.User) {
 	var products = []model.Product{
 		model.Product{
-			ID:           model.IntID(10),
-			Name:         "apple iphone4",
+			ID: model.IntID(10),
+			// Name:         "apple iphone4",
 			Title:        "苹果 IPhone4 掉渣天版",
 			DefaultPrice: 4999.0,
 		},
 		model.Product{
-			ID:           model.IntID(11),
-			Name:         "apple iPad pro",
+			ID: model.IntID(11),
+			// Name:         "apple iPad pro",
 			Title:        "苹果 IPad Pro版",
 			DefaultPrice: 3999.0,
 		},

@@ -10,12 +10,12 @@ import (
 
 var products = []model.Product{
 	model.Product{
-		Name:         "apple iphone4",
+		// Name:         "apple iphone4",
 		Title:        "苹果 IPhone4 掉渣天版",
 		DefaultPrice: 4999.0,
 	},
 	model.Product{
-		Name:         "apple iPad pro",
+		// Name:         "apple iPad pro",
 		Title:        "苹果 IPad Pro版",
 		DefaultPrice: 3999.0,
 	},
