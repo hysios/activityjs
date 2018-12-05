@@ -1,0 +1,4 @@
+.error-marker {
+    position: absolute;
+    background:rgba(255, 18, 18, 0.3);
+}

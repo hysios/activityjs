@@ -1,0 +1,8 @@
+.vscode/
+demo/main.js
+demo/main.js.map
+src/
+pkg/
+tmp/
+workspace/
+products.json
